@@ -1,95 +1,47 @@
-Here is a complete, ready-to-use single-page portfolio website for you. It includes all the details you provided and a clean, responsive layout.
+<!DOCTYPE html>
+<html>
+<head>
+<title>Eswari Portfolio</title>
+<style>
+body{font-family:Arial;margin:0;background:#0b1020;color:white}
+header{background:#6c63ff;padding:20px;text-align:center}
+section{padding:20px}
+.card{background:#141a2b;padding:15px;margin:10px;border-radius:10px}
+</style>
+</head>
 
-Save as index.html and open in your browser.
+<body>
 
-<!DOCTYPE html>  <html lang="en">  
-<head>  
-  <meta charset="UTF-8" />  
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>  
-  <title>G. Eswari - Aspiring Software Developer</title>  
-  <style>  
-    :root{  
-      --bg: #0b1020;  
-      --card: #141a2b;  
-      --text: #e8eaf6;  
-      --muted: #a6b0d8;  
-      --accent: #6c63ff;  
-      --accent-dark: #5a4bd0;  
-      --green: #38d39f;  
-    }  
-    * { box-sizing: border-box; }  
-    html, body {  
-      margin: 0;  
-      padding: 0;  
-      font-family: Inter, ui-sans-serif, system-ui, -apple-system;  
-      color: var(--text);  
-      background: radial-gradient(circle at 20% -10%, rgba(108,99,255,0.25), transparent 40%),  
-                  radial-gradient(circle at 100% 0%, rgba(110, 207, 255, 0.15), transparent 40%),  
-                  linear-gradient(135deg, #0b1020 0%, #0a1130 100%);  
-      min-height: 100%;  
-    }  
-    header {  
-      position: sticky; top: 0; z-index: 100;  
-      background: rgba(10,12,28,0.95);  
-      border-bottom: 1px solid rgba(255,255,255,0.05);  
-    }  
-    nav {  
-      display: flex; justify-content: space-between; align-items: center;  
-      max-width: 1100px; margin: 0 auto; padding: 14px 20px;  
-    }  
-    .brand { font-weight: 700; letter-spacing: .5px; }  
-    .brand span { color: var(--accent); }  
-    .nav-links { display: flex; gap: 16px; }  
-    .nav-links a {  
-      color: var(--text); text-decoration: none; font-size: 14px;  
-      padding: 8px 12px; border-radius: 6px;  
-    }  
-    .nav-links a:hover { background: rgba(255,255,255,0.08); }  main { max-width: 1100px; margin: 0 auto; padding: 40px 20px 80px; }  
+<header>
+<h1>G. Eswari</h1>
+<p>Aspiring Software Developer</p>
+</header>
 
-.hero {  
-  display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 28px;  
-  align-items: center; padding: 40px 0;  
-}  
-.intro {  
-  background: linear-gradient(135deg, rgba(108,99,255,0.15), rgba(0,0,0,0) 60%), rgba(20,26,45,0.8);  
-  border: 1px solid rgba(255,255,255,0.07);  
-  border-radius: 14px; padding: 28px;  
-}  
-.intro h1 { margin: 0 0 8px; font-size: 34px; letter-spacing: .4px; }  
-.intro p { color: var(--muted); margin: 6px 0 14px; }  
-.badge {  
-  display: inline-flex; align-items: center; gap: 8px;  
-  padding: 8px 12px; border-radius: 999px;  
-  background: rgba(108,99,255,0.15); border: 1px solid rgba(108,99,255,0.4);  
-  font-size: 12px; color: #e7e6ff;  
-}  
-.cta { display: inline-flex; gap: 12px; margin-top: 12px; }  
-.btn {  
-  background: var(--accent); color: white; border: none;  
-  padding: 12px 16px; border-radius: 8px; cursor: pointer;  
-  font-weight: 600;  
-  transition: transform .2s ease;  
-}  
-.btn.secondary {  
-  background: transparent; color: var(--text);  
-  border: 1px solid rgba(255,255,255,0.25);  
-}  
-.btn:hover { transform: translateY(-1px); }  
+<section>
 
-.hero-visual {  
-  background: linear-gradient(135deg, rgba(108,99,255,0.25), rgba(0,0,0,0.25));  
-  border: 1px solid rgba(255,255,255,0.08);  
-  border-radius: 14px; padding: 22px; min-height: 200px;  
-  display: flex; align-items: center; justify-content: center;  
-}  
-/* Cards / sections */  
-section { margin-top: 40px; }  
-h2.section-title {  
-  font-size: 22px; margin-bottom: 14px; display: inline-block;  
-  border-bottom: 2px solid var(--accent); padding-bottom: 6px;  
-}  
-.grid {  
-  display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px;  
-}  
-.card {  
-  background: rgba(20,26,45
+<div class="card">
+<h2>About</h2>
+<p>Computer Science student passionate about software development.</p>
+</div>
+
+<div class="card">
+<h2>Skills</h2>
+<p>C, Java, Python, HTML, CSS, MySQL</p>
+</div>
+
+<div class="card">
+<h2>Projects</h2>
+<p>Library Management System</p>
+<p>Attendance System (Hackathon)</p>
+</div>
+
+<div class="card">
+<h2>Contact</h2>
+<p>📞 9787019038</p>
+<p>📧 eswari22112006@gmail.com</p>
+</div>
+
+</section>
+
+</body>
+</html>
